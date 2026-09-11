@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jogo da Memória 💕</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎀 Jogo da Memória 🎀</h1>
+
+        <p>Encontre todos os pares!</p>
+
+        <div class="info">
+            <span>Jogadas: <strong id="moves">0</strong></span>
+            <span>Pares: <strong id="pairs">0</strong>/6</span>
+        </div>
+
+        <div id="game"></div>
+
+        <button onclick="restartGame()">
+            🔄 Reiniciar
+        </button>
+
+        <div id="message"></div>
+
+        <h2>🏆 Ranking</h2>
+
+        <div id="ranking"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
